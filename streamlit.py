@@ -49,11 +49,11 @@ if submitted:
     df_input = pd.DataFrame(data)
  
     # 1. Load the pickled model
-    with open('Pickled Data/xgb_model.pkl','rb') as f:
+    with open('xgb_model.pkl','rb') as f:
         model = pickle.load(f)
 
     # 2. Load the pickled scaler
-    with open('Pickled Data/scaler.pkl','rb') as f:
+    with open('scaler.pkl','rb') as f:
         scaler = pickle.load(f)
 
     # 3. Load the test data (replace with actual file or DataFrame as needed)
