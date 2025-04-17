@@ -20,7 +20,7 @@ with st.form("insurance_form"):
     vehicle_age = st.number_input("Vehicle Age (years)", min_value=0, value= 10)
     insurance_duration = st.number_input("Insurance Duration (years)", min_value=0, value=10)
     num_dependents = st.number_input("Number of Dependents", min_value=0, value=1)
-    education_level = st.selectbox("Education Level", ["High School", "Bachelor's", "Master's", "PhD", "Other"])
+    education_level = st.selectbox("Education Level", ["High School", "Bachelor's", "Master's", "PhD"])
     exercise_frequency = st.selectbox("Exercise Frequency", ["Never", "Rarely", "Regularly", "Daily"])
 
     submitted = st.form_submit_button("Submit")
