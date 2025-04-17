@@ -6,7 +6,7 @@ import pickle
 
 
 # Title
-st.image("Image Data/Logo.ipng")
+st.image("Logo.ipng")
 st.title(" Insurance Premium Prediction")
 
 # Input form
