@@ -130,6 +130,6 @@ You can:
 
 ---
 
-## 📬 Feedback & Contributions
+## 📬 Feedback
 
-Feel free to open issues or submit pull requests! Contributions, improvements, and suggestions are always welcome 🙌
+Feel free to open issues or submit pull requests! Improvements, and suggestions are always welcome 🙌
