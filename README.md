@@ -126,7 +126,7 @@ streamlit run streamlit.py
 
 You can:
 - Enter customer details manually  
-- Or upload CSV files for bulk predictions
+- View the predicted Insurance Amount
 
 ---
 
