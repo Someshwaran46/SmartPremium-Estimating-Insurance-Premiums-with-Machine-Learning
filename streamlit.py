@@ -25,7 +25,6 @@ with st.form("insurance_form"):
     submitted = st.form_submit_button("Submit")
 
 # Mapping for categorical values
-feedback_order = {"Poor": 0, "Average": 1, "Good": 2}
 education_order = {"High School": 0, "Bachelor's": 1, "Master's": 2, "PhD": 3}
 exercise_order = {"Never": 0, "Rarely": 1, "Regularly": 2, "Daily": 3}
 
@@ -50,11 +49,11 @@ if submitted:
     df_input = pd.DataFrame(data)
  
     # 1. Load the pickled model
-    with open('/Users/somesh-19583/Desktop/Insurance_amount_prediction/Pickled Data/xgb_model.pkl','rb') as f:
+    with open('Pickled Data/xgb_model.pkl','rb') as f:
         model = pickle.load(f)
 
     # 2. Load the pickled scaler
-    with open('/Users/somesh-19583/Desktop/Insurance_amount_prediction/Pickled Data/scaler.pkl','rb') as f:
+    with open('Pickled Data/scaler.pkl','rb') as f:
         scaler = pickle.load(f)
 
     # 3. Load the test data (replace with actual file or DataFrame as needed)
